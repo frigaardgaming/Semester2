@@ -1,0 +1,17 @@
+#site-header.transparent-header{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 998;
+	transition: background-color 0.3s ease;
+}
+
+.mobileresponsive{
+	display: none;
+}
+
+@media screen and (max-width: 767px){
+	.mobileresponsive{
+	display: block;}
+}
+
